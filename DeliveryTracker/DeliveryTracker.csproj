@@ -144,9 +144,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AppDbContext.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Models\DbModel.cs" />
     <Compile Include="Models\DomainModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -232,6 +229,7 @@
     <None Include="CodeTemplates\AddView\CSHTML\Spa_Editor.tt" />
     <None Include="CodeTemplates\AddView\CSHTML\Spa_Grid.tt" />
     <None Include="CodeTemplates\AddView\CSHTML\Spa_Paging.tt" />
+    <Content Include="Views\Home\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
