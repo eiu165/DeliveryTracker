@@ -148,6 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Html\index.html" />
     <Content Include="Content\Site.Mobile.css" />
     <Content Include="Content\Spa.css" />
     <Content Include="favicon.ico" />
