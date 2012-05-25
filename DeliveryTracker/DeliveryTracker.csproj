@@ -138,12 +138,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\Infrastructure\Massive.cs" />
     <Compile Include="Controllers\DataServiceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AppDbContext.cs" />
+    <Compile Include="Models\AppDbContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DbModel.cs" />
     <Compile Include="Models\DomainModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
