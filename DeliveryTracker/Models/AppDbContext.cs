@@ -17,7 +17,7 @@ namespace DeliveryTracker.Models
     {
         static AppDbContext()
         {
-            Database.SetInitializer(new TestDataInitializer());
+            //Database.SetInitializer(new TestDataInitializer()); 
         }
 
         private class TestDataInitializer : DropCreateDatabaseIfModelChanges<AppDbContext>
