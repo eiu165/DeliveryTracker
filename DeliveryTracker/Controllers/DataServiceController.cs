@@ -10,7 +10,6 @@ using System.Web.Http.Data.EntityFramework;
 
 namespace DeliveryTracker.Controllers
 {
-    /*
     public class DataServiceController : DbDataController<AppDbContext>
     {
         public IQueryable<Delivery> GetDeliveriesForToday()
@@ -23,8 +22,9 @@ namespace DeliveryTracker.Controllers
         public void InsertDelivery(Delivery delivery) { InsertEntity(delivery); }
         public void UpdateDelivery(Delivery delivery) { UpdateEntity(delivery); }
         public void DeleteDelivery(Delivery delivery) { DeleteEntity(delivery); }
-    }*/
+    }
 
+    /*
     public class DataServiceController : ApiController 
     {
         public IQueryable<Delivery> GetDeliveriesForToday()
@@ -66,6 +66,8 @@ namespace DeliveryTracker.Controllers
             //DeleteEntity(delivery);
         }
     }
+     
+     */
 
 
 }
