@@ -21,8 +21,8 @@ namespace DeliveryTracker.Controllers
             {
                 foreach (ConnectionStringSettings connection in connections)
                 {
-                    //s.AppendFormat("<b>{0}</b><br /> {1} {2}  <br /> <br /> <br /> ", connection.Name, connection.ConnectionString, connection.ProviderName);
-                    s.AppendFormat(" <br /><b>{0}</b><br /> <br /> <br /> <br /> ", connection.Name);
+                    s.AppendFormat("<b>{0}</b><br /> {1} {2}  <br /> <br /> <br /> ", connection.Name, connection.ConnectionString, connection.ProviderName);
+                    //s.AppendFormat(" <br /><b>{0}</b><br /> <br /> <br /> <br /> ", connection.Name);
                 }
             }
 
