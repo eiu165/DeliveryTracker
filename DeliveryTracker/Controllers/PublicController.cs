@@ -22,8 +22,8 @@ namespace DeliveryTracker.Controllers
             {
                 foreach (ConnectionStringSettings connection in connections)
                 {
-                    s.AppendFormat("<b>{0}</b><br /> {1} {2}  <br /> <br /> <br /> ", connection.Name, connection.ConnectionString, connection.ProviderName);
-                    //s.AppendFormat(" <br /><b>{0}</b><br /> <br /> <br /> <br /> ", connection.Name);
+                    //s.AppendFormat("<b>{0}</b><br /> {1} {2}  <br /> <br /> <br /> ", connection.Name, connection.ConnectionString, connection.ProviderName);
+                    s.AppendFormat(" <br /><b>{0}</b><br /> <br /> <br /> <br /> ", connection.Name);
                 }
             }
 
@@ -52,7 +52,8 @@ namespace DeliveryTracker.Controllers
             }
             for (int i = 0; i < appSettings.Count; i++)
             {
-                s.AppendFormat("#{0} Key: <b>{1}</b> Value: <b>{2}</b> <br />", i, appSettings.GetKey(i), appSettings[i]);
+                //s.AppendFormat("#{0} Key: <b>{1}</b> Value: <b>{2}</b> <br />", i, appSettings.GetKey(i), appSettings[i]);
+                s.AppendFormat("#{0} Key: <b>{1}</b>   <br />", i, appSettings.GetKey(i) );
             }
             return s.ToString();
         }
