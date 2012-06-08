@@ -2,9 +2,24 @@
     ViewBag.Title = "Index";
 }
 
+@section head{
+    <style type="text/css">
+        section div        { margin:5px; border:1px solid black;        }
+    </style>
+}
+
 <h2>Index</h2>
 
 <div>
     @Html.Raw(@ViewBag.ConnString)
 </div>
+
+appsettings
+<div>
+    @Html.Raw(@ViewBag.AppSettings)
+</div>
+
+ 
+
+
 
